@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3755">
+      <stop
+         style="stop-color:#002470;stop-opacity:1;"
+         offset="0"
+         id="stop3757" />
+      <stop
+         style="stop-color:#65a3c1;stop-opacity:0.99583334"
+         offset="1"
+         id="stop3759" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755"
+       id="radialGradient3761"
+       cx="229.15729"
+       cy="261.60742"
+       fx="229.15729"
+       fy="261.60742"
+       r="512"
+       gradientTransform="matrix(3.4254218,-0.09555007,0.06995375,2.507808,-574.10349,-270.86908)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3781"
+       x="-0.019197326"
+       width="1.0383947"
+       y="-0.37022248"
+       height="1.740445">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.6249313"
+         id="feGaussianBlur3783" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#2f2f2f"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="490.94818"
+     inkscape:cy="338.25335"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1146"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.36218)">
+    <rect
+       style="opacity:0.18000004000000000;fill:url(#radialGradient3761);fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="1024"
+       height="768"
+       x="0"
+       y="284.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:57.01187133999999901px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="32.009407"
+       y="351.02591"
+       id="text3763"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         x="32.009407"
+         y="351.02591">rsync job configuration tool</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#text3763"
+       id="use3767"
+       style="filter:url(#filter3781);opacity:0.55440152" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3797"
+       y="1021.0474"
+       x="876.81244"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d9e3e7;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       xml:space="preserve"><tspan
+         id="tspan3803"
+         y="1021.0474"
+         x="876.81244"
+         sodipodi:role="line">Tom Most</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3810"
+       y="424.04733"
+       x="48.487324"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d9e3e7;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       xml:space="preserve"><tspan
+         id="tspan3812"
+         y="424.04733"
+         x="48.487324"
+         sodipodi:role="line">GUI tool to assist in the creation of rsync include and exclude files.  Displays </tspan><tspan
+         id="tspan3814"
+         y="454.04733"
+         x="48.487324"
+         sodipodi:role="line">the file tree with useful metadata and allows inclusion/exclusion of files, </tspan><tspan
+         id="tspan3816"
+         y="484.04733"
+         x="48.487324"
+         sodipodi:role="line">directories individually or by glob pattern.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d9e3e7;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="48.487324"
+       y="539.20459"
+       id="text3822"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="539.20459"
+         id="tspan3828">Features:</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="569.20459"
+         id="tspan3835"> - Allow creation of include/exclude rule files for --include/exclude-file flags</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="599.20459"
+         id="tspan3851"> - Show what include/exclude rules match</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="629.20459"
+         id="tspan3853"> - Display sources of rsync errors (permissions, ownership, circular links)</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="659.20459"
+         id="tspan3837"> - Show subtree size, warn about large files</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="689.20459"
+         id="tspan3839"> - Show total size, file count</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="719.20459"
+         id="tspan3841"> - Flag common temporary file locations for exclusion</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="749.20459"
+         id="tspan3847"> - Hide/show hidden files</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="779.20459"
+         id="tspan3857"> - Show directory structure changes since last run (optional)</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="809.20459"
+         id="tspan3863" /><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="839.20459"
+         id="tspan3865">Suitable for TDD:</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="869.20459"
+         id="tspan3867"> - Features are compositional, easily tested using mocks</tspan><tspan
+         sodipodi:role="line"
+         x="48.487324"
+         y="899.20459"
+         id="tspan3869"> - Biggest challenge: testing the GUI (but not a web app, so we'll be okay!)</tspan></text>
+  </g>
+</svg>

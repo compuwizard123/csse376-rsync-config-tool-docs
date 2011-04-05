@@ -1,0 +1,5 @@
+uml
+-gtk???
+-thread model
+-private attributes
+-testing class

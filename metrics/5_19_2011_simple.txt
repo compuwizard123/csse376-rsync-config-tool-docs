@@ -1,14 +1,4 @@
-( if [ -f data/locale/en_US.po ] ; then \
-	    msgmerge -U data/locale/en_US.po data/locale/messages.pot ; \
-	  else \
-	    msginit -i data/locale/messages.pot -o data/locale/en_US.po --no-translator --locale en_US ; \
-	  fi )
-( if [ -f data/locale/es_ES.po ] ; then \
-	    msgmerge -U data/locale/es_ES.po data/locale/messages.pot ; \
-	  else \
-	    msginit -i data/locale/messages.pot -o data/locale/es_ES.po --no-translator --locale es_ES ; \
-	  fi )
-Total Coverage: 56%
+Total Coverage: 94%
 Avg Complexity: 1.318
 SLOC: 773
 Avg Comments/Method: 2.666

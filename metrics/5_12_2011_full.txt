@@ -1,0 +1,180 @@
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+rsyncconfig/__init__                 0      0   100%   
+rsyncconfig/filter                  37     26    30%   22-24, 59-86, 89-91
+rsyncconfig/fstree                  24      2    92%   56, 61
+rsyncconfig/gui                      8      4    50%   19, 23-24, 26
+rsyncconfig/spider                  33      4    88%   55-60
+rsyncconfig/test/__init__            9      2    78%   9-11
+rsyncconfig/test/filter             42      0   100%   
+rsyncconfig/test/filterruleset   NoSource: No source for code: '/home/development/rsync-config-tool/filterruleset.py'
+rsyncconfig/test/fstree             50      2    96%   38, 53
+rsyncconfig/test/gui                13      5    62%   16, 24-32
+rsyncconfig/test/spider             56      0   100%   
+tools/run_tests                      5      5     0%   2-10
+--------------------------------------------------------------
+TOTAL                              277     50    82%   
+File: /home/development/rsync-config-tool/pygenie.py
+Type Name                                           Complexity 
+--------------------------------------------------------------
+F    main                                           8          
+M    CommandParser.parse_args                       4          
+F    find_module                                    4          
+X    /home/development/rsync-config-tool/pygenie.py 2          
+M    CommandParser.__init__                         2          
+C    CommandParser                                  1          
+
+File: /home/development/rsync-config-tool/run_tests.py
+Type Name                                             Complexity 
+----------------------------------------------------------------
+X    /home/development/rsync-config-tool/run_tests.py 2          
+
+File: /home/development/rsync-config-tool/rsyncconfig/fstree.py
+Type Name                                                      Complexity 
+-------------------------------------------------------------------------
+M    FSTree.add_path                                           3          
+X    /home/development/rsync-config-tool/rsyncconfig/fstree.py 1          
+C    FSTree                                                    1          
+M    FSTree.__init__                                           1          
+M    FSTree.update_path                                        1          
+M    FSTree.remove_path                                        1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/filter.py
+Type Name                                                      Complexity 
+-------------------------------------------------------------------------
+M    FilterRule.match                                          3          
+X    /home/development/rsync-config-tool/rsyncconfig/filter.py 1          
+C    FilterRule                                                1          
+M    FilterRule.__init__                                       1          
+C    ExcludeFilter                                             1          
+C    IncludeFilter                                             1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/__init__.py
+Type Name                                                        Complexity 
+---------------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/__init__.py 1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/test/spider.py
+Type Name                                                           Complexity 
+------------------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/test/spider.py 1          
+C    TestSpider                                                     1          
+M    TestSpider.__init__                                            1          
+M    TestSpider.setUp                                               1          
+M    TestSpider.test_empty                                          1          
+M    TestSpider.test_one_file                                       1          
+M    TestSpider.test_recurse_into_dir                               1          
+F    values                                                         1          
+F    get_suite                                                      1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/test/__init__.py
+Type Name                                                             Complexity 
+--------------------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/test/__init__.py 1          
+F    get_suite                                                        1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/spider.py
+Type Name                                                      Complexity 
+-------------------------------------------------------------------------
+M    Spider._process_dir                                       3          
+M    Spider._dir_iter                                          3          
+X    /home/development/rsync-config-tool/rsyncconfig/spider.py 1          
+C    Spider                                                    1          
+M    Spider.__init__                                           1          
+M    Spider.__repr__                                           1          
+M    Spider.run                                                1          
+M    Spider.stop                                               1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/test/fstree.py
+Type Name                                                           Complexity 
+------------------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/test/fstree.py 1          
+C    TestFSTree                                                     1          
+M    TestFSTree.setUp                                               1          
+M    TestFSTree.test_add_single_file                                1          
+M    TestFSTree.test_add_two_files                                  1          
+M    TestFSTree.test_add_dir_with_file                              1          
+M    TestFSTree.test_add_dir_with_files                             1          
+F    mocked_stat                                                    1          
+F    store_to_list                                                  1          
+F    get_suite                                                      1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/gui.py
+Type Name                                                   Complexity 
+----------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/gui.py 1          
+F    load_gui                                               1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/test/filter.py
+Type Name                                                           Complexity 
+------------------------------------------------------------------------------
+M    _FilterTestSuite.add_test_table                                4          
+X    /home/development/rsync-config-tool/rsyncconfig/test/filter.py 1          
+C    _FilterTestCase                                                1          
+M    _FilterTestCase.__init__                                       1          
+M    _FilterTestCase.run_test                                       1          
+M    _FilterTestCase.get_message                                    1          
+C    _FilterTestSuite                                               1          
+F    add_tests                                                      1          
+F    get_suite                                                      1          
+
+File: /home/development/rsync-config-tool/rsyncconfig/test/gui.py
+Type Name                                                        Complexity 
+---------------------------------------------------------------------------
+X    /home/development/rsync-config-tool/rsyncconfig/test/gui.py 1          
+C    TestLoadGUI                                                 1          
+M    TestLoadGUI.test_load                                       1          
+F    get_suite                                                   1          
+
+File: /home/development/rsync-config-tool/cc.py
+Type Name                                      Complexity 
+---------------------------------------------------------
+M    CCVisitor.__init__                        5          
+M    PrettyPrinter.pprint                      5          
+M    Table.__init__                            4          
+M    PrettyPrinter.pprint_table                4          
+M    CCVisitor.dispatchChildren                2          
+M    CCVisitor.visitFunction                   2          
+M    Table.__iter__                            2          
+M    PrettyPrinter.flatten_stats               2          
+X    /home/development/rsync-config-tool/cc.py 1          
+C    Stats                                     1          
+M    Stats.__init__                            1          
+M    Stats.__str__                             1          
+C    ClassStats                                1          
+M    ClassStats.__str__                        1          
+C    DefStats                                  1          
+M    DefStats.__str__                          1          
+C    CCVisitor                                 1          
+M    CCVisitor.visitClass                      1          
+M    CCVisitor.visitIf                         1          
+M    CCVisitor.__processDecisionPoint          1          
+M    CCVisitor.visitAnd                        1          
+M    CCVisitor.visitOr                         1          
+C    Table                                     1          
+M    Table.__nonzero__                         1          
+C    PrettyPrinter                             1          
+M    PrettyPrinter.__init__                    1          
+F    measure_complexity                        1          
+
+
+http://cloc.sourceforge.net v 1.09  T=0.5 s (24.0 files/s, 2192.0 lines/s)
+---------------------------------------------------------------------------------
+File                                          blank        comment           code
+---------------------------------------------------------------------------------
+./rsyncconfig/test/filter.py                     37             59            227
+./cc.py                                          48              3            114
+./rsyncconfig/test/fstree.py                     20             14             77
+./rsyncconfig/test/spider.py                     20             14             72
+./rsyncconfig/filter.py                          11             15             66
+./pygenie.py                                     20              2             58
+./rsyncconfig/spider.py                          10             16             40
+./rsyncconfig/fstree.py                           7             15             39
+./rsyncconfig/test/gui.py                         6             14             18
+./rsyncconfig/test/__init__.py                    3              0             15
+./rsyncconfig/gui.py                              2             14             10
+./run_tests.py                                    3              1              6
+---------------------------------------------------------------------------------
+SUM:                                            187            167            742
+---------------------------------------------------------------------------------
+Avg Comments/Method: 4.175
